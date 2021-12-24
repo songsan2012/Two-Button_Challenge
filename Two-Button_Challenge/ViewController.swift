@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         print("😎 Show Message Pressed.")
         messageLabel.text = "You Are Awesome!!!"
         messageLabel.textColor = UIColor.red
-        
+        messageLabel.textAlignment = .left
         
     }
     
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         
         messageLabel.text = "You Are GREAT!!!!"
         messageLabel.textColor = UIColor.blue
+        messageLabel.textAlignment = .right
     }
     
     
