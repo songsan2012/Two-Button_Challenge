@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     
         print("Form loaded")
-        messageLabel.text = ""
+        messageLabel.text = "Fabulous? You Are"
     
     }
 
@@ -25,12 +25,19 @@ class ViewController: UIViewController {
     @IBAction func showMessagePressed(_ sender: Any) {
         
         print("😎 Show Message Pressed.")
+        messageLabel.text = "You Are Awesome!!!"
+        messageLabel.textColor = UIColor.red
+        
+        
     }
     
     // -- To Show Another Message
     @IBAction func showAnotherMessagePressed(_ sender: Any) {
         
         print("☺️ Show Another Message Pressed.")
+        
+        messageLabel.text = "You Are GREAT!!!!"
+        messageLabel.textColor = UIColor.blue
     }
     
     
